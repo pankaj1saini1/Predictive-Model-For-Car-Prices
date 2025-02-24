@@ -24,3 +24,12 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # mo=LinearRegression()
 mo = RandomForestRegressor(n_estimators=100, random_state=42)
 mo.fit(X_train,y_train)
+
+
+📌 Explanation of the Script
+  . Loads the dataset
+  . Encodes categorical variables
+  . Splits data into training & test sets
+  . Scales numerical features
+  . Trains a RandomForest model
+  . Saves the trained model for future use
