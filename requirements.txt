@@ -1,0 +1,22 @@
+This will list all installed dependencies with their versions.
+
+If you prefer to manually specify dependencies, you can include common libraries like this:
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+jupyter
+
+Optionally, you can specify exact versions for better reproducibility:
+numpy==1.24.3
+pandas==1.5.3
+matplotlib==3.7.1
+seaborn==0.12.2
+scikit-learn==1.2.2
+jupyter==1.0.0
+
+📌 How to Install Dependencies
+Once the file is created, anyone can install the dependencies by running:
+
+pip install -r requirements.txt
